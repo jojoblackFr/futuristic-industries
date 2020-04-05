@@ -1,0 +1,8 @@
+{
+	"name": "Liquid Starium",
+	"description": "used for graphics only",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "77dfff"
+}

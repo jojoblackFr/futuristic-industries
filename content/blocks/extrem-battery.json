@@ -1,0 +1,17 @@
+{
+  "type": "battery",
+  "name": "Extreme Battery",
+  "size": 3,
+	"description": "A battery made with Tungsten to make it more efficient.",
+  "health": 900,
+  "category": "power",
+  "research": "battery-large",
+  "consumes": {
+    "powerBuffered": "250000.0"
+	},
+  "requirements": [
+    { "item": "titanium", "amount": "150" },
+    { "item": "silicon", "amount": "200" },
+    { "item": "tungsten", "amount": "180" }
+  ]
+}

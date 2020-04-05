@@ -1,0 +1,6 @@
+{
+"name":"Ashen sand",
+"type":"floor",
+"itemDrop":"sand"
+"playerUnmineable": true
+}

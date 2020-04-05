@@ -1,0 +1,51 @@
+{
+    "name":"Dark Eagle",
+    "description":"This Big Boy is strong enough to Pierce Lich Armor!.",
+    "health":1240,
+    "shootSound":"release",
+    "range":440,
+    "reload":150,
+    "type":"ArtilleryTurret",
+    "rotatespeed":2,
+    "shootShake":0.5,
+    "category":"turret",
+    "size":4,
+    "research":"salvo",
+    "targetAir":true,
+    "targetGround":true,
+    "maxAmmo":12,
+    "ammo": {
+            "graphite": {
+                            "hitSize":12,
+                            "damage":1000,
+                            "drawSize":120,
+                            "speed":70,
+                            "lifetime":90,
+                            "ammoMultiplier":1,
+                            "reloadMultiplier":1
+                                 },
+           "thorium":{
+                             "hitsize":14,
+                             "damage":1200,
+                             "drawSize":140,
+                             "speed":70,
+                             "lifetime":90,
+                             "ammoMultiplier":2,
+                             "reloadMultiplier":2  
+                              },
+           "tech-core":{
+                              "hitsize":16,
+                              "damage":2000,
+                              "drawSize":160,
+                              "speed":70,
+                              "lifetime":90,
+                              "ammoMultiplier":4,
+                              "reloadMultiplier":4
+                                 }
+                   },
+"requirements":[
+{ "item":"bronze", "amount":150 },
+{ "item":"unobtanium", "amount":75 },
+{ "item":"tungsten", "amount":125 }
+]
+}

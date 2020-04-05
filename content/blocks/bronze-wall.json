@@ -1,0 +1,12 @@
+{
+	"name": "Large Bronze Wall",
+	"description": "A big vesion of bronze wall.",
+	"type": "Wall",
+	"health": 1600,
+	"size": 1,
+	"requirements": [
+		{ "item": "bronze", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "bronze-wall-p"
+}

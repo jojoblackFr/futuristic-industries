@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Starium Forge",
+	"description": "creates a powerful material that is used for weapons and walls.",
+	"outputItem": {"item": "starium", "amount": 1},
+	"size": 3,
+	"hasLiquid": false,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 2 },
+				{ "item": "phase-fabric", "amount": 1 },
+				{ "item": "surge-alloy", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "surge-alloy", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,76 @@
+{
+	"type": "ItemTurret",
+	"name": "Event Horizon",
+	"description": "Destroys, Everything.",
+	"health": 7000,
+	"size": 4,
+	"reload": 80,
+	"range": 320,
+	"heatColor": "FFEE55",
+	"ammoUseEffect": "none",
+	"shootSound": "solar-destruction-shoot",
+	"rotatespeed": 0.9,
+	"ammo": {
+		"starium": {
+			"type": "ArtilleryBulletType",
+			"speed": 5.2,
+			"lifetime": 180
+			"bulletWidth": 30,
+			"bulletHeight": 40,
+			"bulletShrink": 0,
+			"hitSize": 14,
+			"knockback": 4,
+			"damage": 10,
+			"pierce": true,
+			"collidesTiles": true,
+			"collidesAir": true,
+			"collides": true,
+			"backColor": "33DFFF",
+			"shootEffect": "shockwave",
+			"despawnEffect": "explosion",
+			"hitEffect": "blockExplosion",
+			"hitEffect": "blockExplosionSmoke",
+			"hitEffect": "spawnShockwave",
+			"hitSound": "solar-destruction-hit",
+			"trailEffect": "missileTrail",
+			"trailColor": "33DFFF",
+			"bulletSprite": "bullet",
+			"ammoMultiplier": 2,
+			"splashDamage": 5,
+			"splashDamageRadius": 190,
+			"fragBullets": 7
+			"fragBullet": {
+				"type": "ArtilleryBulletType",
+				"speed": 7,
+				"bulletSprite": "bullet",
+				"collidesTiles": true,
+				"collidesAir": true,
+				"collides": true,
+				"splashDamage": 5,
+				"splashDamageRadius": 50,
+				"bulletWidth": 10,
+				"bulletHeight": 15,
+				"lifetime": 30,
+				"knockback": 3,
+				"damage": 10,
+				"backColor": "33DFFF",
+				"hitEffect": "hitLancer",
+				"trailEffect": "missileTrail",
+				"trailColor": "33DFFF",
+				"fragBullets": 1,
+				"fragBullet": "lightning"
+				"status": "melting",
+				"statusDuration": 1200
+				}
+			}
+		},
+	"requirements": [
+		{ "item": "titanium", "amount": 260 },
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "phase-fabric", "amount": 180 },
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "starium", "amount": 100 }
+	],
+	"category": "turret",
+	"research": "solar-destruction"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Bronze Wall",
+	"description": "A medium defensive block. Provides a medium protection from enemies.",
+	"type": "Wall",
+	"health": 400,
+	"size": 1,
+	"requirements": [
+		{ "item": "bronze", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall-large"
+}

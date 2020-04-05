@@ -1,0 +1,29 @@
+{
+    "type": "GenericCrafter",
+    "name": "Schrabbidium-Compressor",
+    "description": "Presses Copper so hard, that it creates the super heavy Schrabbidium.",
+    "itemCapacity": 250,
+    "outputItem": {"item": "schrabbidium", "amount": 1.0},
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 100,
+    "updateEffect": "lancerLaserCharge",
+    "consumes": {
+        "power": 0.9,
+        "items": {
+        "items": 
+[
+{"item": "thorium", "amount": 60}
+]
+    }
+    },
+    "requirements": [
+        { "item": "copper", "amount": 130 },
+        { "item": "titanium", "amount": 80 },
+        { "item": "graphite", "amount": 50 },
+        { "item": "tech-core", "amount": 30 }
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter"
+}

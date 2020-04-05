@@ -1,0 +1,11 @@
+{
+"name":"Magma",
+"type":"floor",
+"speedMultiplier":0.5,
+"dragMultiplier":0,
+"damageTaken":10,
+"drownTime":120,
+"isLiquid":true,
+"walkEffect":"smeltsmoke",
+"drownUpdateEffect":"lava"
+}

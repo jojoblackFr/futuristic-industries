@@ -1,0 +1,12 @@
+{
+	"name": "Large Starium Wall",
+	"description": "I wonder how much Mechs it hold before breaking",
+	"type": "Wall",
+	"health": 5500,
+	"size": 2,
+	"requirements": [
+		{ "item": "starium", "amount": 37 }
+	],
+	"category": "defense",
+	"research": "starium-wall"
+}

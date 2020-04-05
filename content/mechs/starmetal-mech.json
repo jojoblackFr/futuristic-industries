@@ -1,0 +1,18 @@
+{
+	"name": "Speeder",
+	"description": "Use the stored energy to destroy the ennemy.",
+	"speed": 2.9,
+	"boostSpeed": 1.5,
+	"buildPower": 4.0,
+	"engineColor": "666495",
+	"flying": true,
+	"health": 500,
+	"weaponOffsetX": 4,
+	"weapon": {
+		"name": "starmetal-blaster",
+		"length": 1.5,
+		"reload": 60,
+		"alternate": true,
+		"bullet": "lancerLaser"
+	}
+}

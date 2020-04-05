@@ -1,0 +1,41 @@
+{
+	"type": "ChargeTurret",
+	"name": "Eclipse",
+	"description": "A powerful Weapon that annihilates weak enemies",
+	"health": 2800,
+	"size": 3,
+	"reload": 10,
+	"range": 230,
+	"shootCone": 20,
+	"heatColor": "FFEE55",
+	"ammoUseEffect": "none",
+	"rotatespeed": 2.5,
+	"powerUse": 13.3,
+	"hasPower": true,
+	"chargeBeginEffect": "none",
+	"chargeEffect": "lancerLaserCharge",
+	"chargeMaxDelay": 5,
+	"shootType": {
+		"type": "basicBulletType",
+		"speed": 9,
+		"bulletWidth": 13,
+		"bulletHeight": 30,
+		"shootEffect": "shockwave",
+		"shootEffect": "lightningShoot",
+		"pierce": true,
+		"damage": 35,
+		"lifetime": 30,
+		"knockback": 2,
+		"backColor": "33DFFF",
+		"fragBullets": 1,
+		"fragBullet": "lightning"
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 80 },
+		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "starium", "amount": 30 }
+	],
+	"category": "turret",
+	"research": "spectre"
+}

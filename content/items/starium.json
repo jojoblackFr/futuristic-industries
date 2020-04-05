@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "starium",
+	"description": "a powerful material that is used for weapons and walls.",
+	"cost": 1.2,
+	"flammability": 0,
+	"radioactivity": 0.7,
+	"color": "33CCff"
+}

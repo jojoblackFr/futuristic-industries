@@ -1,0 +1,16 @@
+{
+	"name": "Amored-Vault",
+	"description": "Stores a extreme Amount of Items of each Type. An Unloader Block can be used to retrieve Items from the Amored Vault.",
+	"type": "Vault",
+	"itemCapacity": 3000,
+	"hasItems": true,
+	"health": 1000,
+	"size": 3,
+	"requirements": [
+		{ "item": "titanium", "amount": 1000 },
+		{ "item": "thorium", "amount": 500 },
+		{ "item": "unobtanium", "amount": 250 }
+	],
+	"category": "effect",
+	"research": "vault"
+}

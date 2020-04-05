@@ -1,0 +1,6 @@
+{
+"name":"Volcano sand",
+"type":"floor",
+"itemDrop":"sand"
+"playerUnmineable": true
+}

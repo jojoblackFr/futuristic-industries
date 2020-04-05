@@ -1,0 +1,9 @@
+{
+    "result":[
+        {"item":"tungsten","amount":5},
+        {"item":"copper","amount":5},
+        {"item":"lead","amount":5},
+        {"item":"graphite","amount":5},
+        {"item":"titanium","amount":5}
+        ]
+}

@@ -1,0 +1,12 @@
+{
+"name":"Lava",
+"type":"floor",
+"speedMultiplier":0.5,
+"dragMultiplier":0,
+"damageTaken":5,
+"drownTime":180,
+"isLiquid":true,
+"walkEffect":"smeltsmoke",
+"drownUpdateEffect":"lava",
+"liquidDrop":"lava-liquid"
+}
