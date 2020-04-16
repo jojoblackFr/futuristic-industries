@@ -6,5 +6,6 @@
 "damageTaken":5,
 "drownTime":180,
 "isLiquid":true,
-"walkEffect":"smeltsmoke"
+"walkEffect":"smeltsmoke",
+"variants":1
 }
