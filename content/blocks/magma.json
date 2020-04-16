@@ -7,5 +7,6 @@
 "drownTime":120,
 "isLiquid":true,
 "walkEffect":"smeltsmoke",
-"drownUpdateEffect":"lava"
+"drownUpdateEffect":"lava",
+"variants":1
 }
