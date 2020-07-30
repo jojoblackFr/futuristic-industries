@@ -1,1 +1,6 @@
-{"name":"Tin","description":"A basic mineral, useful for welding","color":"ffccffff","type":"resource"}
+{
+"name":"Tin",
+"description":"A basic mineral, useful for welding",
+"color":"ffccffff",
+"type":"material"
+}
